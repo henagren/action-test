@@ -11,6 +11,13 @@
 	<description>Action test</description>
 	<url>https://github.com/henagren/action-test</url>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>action-test</name>
+			<url>https://maven.pkg.github.com/henagren/action-test</url>
+		</repository>
+	</distributionManagement>
 	<properties>
 		<maven.compiler.source>14</maven.compiler.source>
 		<maven.compiler.target>14</maven.compiler.target>
