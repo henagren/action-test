@@ -7,6 +7,9 @@
 	<artifactId>action-test</artifactId>
 	<packaging>jar</packaging>
 	<version>0.1.0</version>
+	<name>action-test</name>
+	<description>Action test</description>
+	<url>https://github.com/henagren/action-test</url>
 
 	<properties>
 		<maven.compiler.source>14</maven.compiler.source>
