@@ -35,7 +35,7 @@ jobs:
       - name: Publish artifact on GitHub Packages
         run: mvn -B clean deploy -DskipTests
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS }}
   docker:
     name: Publish - Docker Hub
     runs-on: ubuntu-18.04
