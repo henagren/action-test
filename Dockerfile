@@ -9,7 +9,7 @@ RUN mvn -B -f pom.xml clean package -DskipTests
 
 
 FROM openjdk:14-slim
-COPY --from=build /workspace/target/*.jar app.jar
+COPY --from=build /workspace/target/action-test-0.1.0-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["java","-jar","app.jar"]
 
